@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 70px;
+    background-color: purple;
+}
+.home a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar-list{
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+.nav-bar-list li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+main{
+    min-height: 550px;
+}
+.services-main-section{
+    display: flex;
+    flex-direction: column;
+}
+.services-main-section div{
+    display: flex;
+    margin-left: 100px;
+    gap: 100px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+.about-me, .contact-me, .projects, .services-header, .hobbies, .priorities, .other-skills, .coding-lang{
+    height: 70px;
+    min-width: 300px;
+    margin: 10px auto;
+    padding-top: 10px;
+    color: purple;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.about-me-par{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 500px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.footer-section{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    height: 25px;
+    background-color: purple;
+}
+table{
+    border: 2px solid purple;
+    margin: 0 auto;
+
+}
+thead{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+td{
+    border: 1px solid purple;
+    padding: 10px;
+}
+tbody{
+    font-weight: bold;
+    text-align: center;
+}
+.projects-par, .preferred-lang-par, .services-par{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.projects-list{
+    width: 800px;
+    margin: 0 auto;
+    list-style:outside;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.services-list, .preferred-lang-list, .hobbies-list, .priorities-list, .other-skills-list{
+    max-width: 400px;
+    margin: 0 auto;
+    list-style:outside;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
