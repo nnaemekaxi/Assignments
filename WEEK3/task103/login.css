@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+form{
+    height: 300px;
+    width: 500px;
+    margin: 100px auto;
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #3686bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #3686bd;
+}
+.reg-input-field{
+    font-size: 1.2rem;
+}
+input{
+    width: 400px;
+    height: 150px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+button{
+    height: 50px;
+    width: 200px;
+    padding: 5px 20px;
+    background-color: #3686bd;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: auto;
+    font-size: 1.5rem;
+}
